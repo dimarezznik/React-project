@@ -1,0 +1,127 @@
+.sign_cart{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.span_gap{
+    display: flex;
+}
+
+.sign_cart div{
+    display: flex;
+    align-items: center;
+}
+
+.sign_cart span{
+    text-decoration: none;
+    color: #212542;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.sign_cart span:hover{
+    text-decoration: underline;
+}
+
+.sign_cart a{
+    text-decoration: none;
+    color: #212542;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.all_cart{
+    display: flex;
+}
+.images_cart{
+    position: relative;
+    display: flex;
+    gap: 10px;
+}
+
+.images_cart p:hover{
+    text-decoration: underline;
+}
+
+.images{
+display: flex;
+}
+
+.cart{
+    position: relative;
+}
+
+.ellipse{
+    position: absolute;
+    top: 0;
+    left: 10px;
+}
+
+.ellipse span{
+    color: white;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 8px;
+    line-height: 8px;
+    position: relative;
+    right: 20px;
+}
+
+.user{
+    width: 18px;
+}
+
+.cart{
+    width: 18px;
+}
+
+@media (max-width: 576px) {
+    .sign_cart{
+        gap: 0px;
+    }
+
+    .span_gap{
+        gap: 0;
+    }
+
+    .images_cart{
+        gap: 5px;
+    }
+    .user{
+        width: 13px;
+    }
+
+    .cart{
+        width: 13px;
+    }
+    .sign_cart span{
+        font-size: 10px;
+        line-height: 13px;
+        margin-left: 5px;
+    }
+    .sign_cart a{
+        font-size: 10px;
+        line-height: 13px;
+    }
+    .ellipse{
+        width: 25px;
+        left: 5px;
+    }
+    .ellipse span{
+        position: relative;
+        right: 15px;
+        font-size: 8px;
+    }
+}
+
+@media (max-width: 400px) {
+    .sign_cart{
+        gap: 60px;
+    }
+}

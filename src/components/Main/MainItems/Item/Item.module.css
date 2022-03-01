@@ -1,0 +1,94 @@
+.item{
+    width: 380px;
+    height: 412px;
+}
+
+.up_item{
+    background-color: #F1F7FF;
+    border-radius: 30px 30px 0 0;
+    padding: 70px;
+}
+
+.svg{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 190px;
+    height: 170px;
+    margin-left: 20px;
+    }
+
+.img{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.name_cream{
+    background-color: #FFFFFF;
+    border: 1px solid #F4F5FF;
+    border-radius:0 0 30px 30px;
+    padding: 24px;
+}
+
+h2{
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+p{
+    margin: 0;
+}
+
+.name_cream h2{
+    text-decoration: none;
+}
+
+.name_cream a{
+    color: #212542;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+    text-align: left;
+}
+
+.name_cream p{
+    color: rgba(33, 37, 66, 0.7);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 16px;
+    text-align: left;
+}
+
+@media (max-width: 992px) {
+    .item{
+        width: 355px;
+        height: 387px;
+        margin-bottom: 60px;
+    }
+}
+
+@media (max-width: 768px) {
+    .item{
+        width: 330px;
+        margin-bottom: 60px;
+    }
+    .svg{
+        margin: 0;
+    }
+}
+
+@media (max-width: 576px) {
+    .item{
+        width: 270px;
+        margin-bottom: 80px;
+    }
+    .svg{
+    position: relative;
+        right: 30px;
+    }
+}

@@ -1,0 +1,52 @@
+.img_name_basket {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.img_name_basket img{
+    width: 120px;
+    height: 96px;
+}
+
+.img_name_basket a {
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 18px;
+    text-align: left;
+    color: #212542;
+}
+
+.img_name_basket p {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 14px;
+    text-align: left;
+    color: rgba(33, 37, 66, 0.7);
+}
+
+.row_close {
+    display: flex;
+    justify-content: space-between;
+}
+
+.count_cross {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+}
+
+.count_cross span {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 16px;
+    text-align: left;
+    color: rgba(33, 37, 66, 0.7);
+}
+
+@media (max-width: 567px) {
+    .img_name_basket img{
+        max-width: 75px;
+    }
+}

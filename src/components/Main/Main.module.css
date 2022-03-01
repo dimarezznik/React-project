@@ -1,0 +1,22 @@
+.main{
+
+}
+
+.columns{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+
+@media (max-width: 992px) {
+    .columns{
+        gap: 15px;
+    }
+}
+
+@media (max-width: 768px) {
+    .columns{
+    display: block;
+    }
+}
